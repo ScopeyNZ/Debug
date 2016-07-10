@@ -1,0 +1,20 @@
+{
+    "name": "scopeynz/debug",
+    "description": "Simple static tooling for measuring performance and profiling. Designed to be low-impact when disabled.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guy Marriott",
+            "email": "guy@scopey.co.nz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\": "src"
+        }
+    }
+}
